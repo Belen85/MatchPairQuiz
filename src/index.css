@@ -61,9 +61,9 @@ body {
   font-size: 2.4rem;
 }
 
-.main {
+/* .main {
   position: relative;
-}
+} */
 
 .container {
   /* border: 1px solid black; */
@@ -152,5 +152,10 @@ footer {
 
   .underline {
     width: 25rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1.2rem 2.4rem;
   }
 }
