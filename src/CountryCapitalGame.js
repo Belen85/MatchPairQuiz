@@ -6,7 +6,8 @@ const CountryCapitalGame = ({ data }) => {
   // console.log(data);
 
   //Original info -> Object
-  const [info, setInfo] = useState(data);
+  // const [info, setInfo] = useState(data);
+  const info = data;
 
   //Values -> index of button
   const [value, setValue] = useState(-1);
@@ -27,7 +28,8 @@ const CountryCapitalGame = ({ data }) => {
   // console.log(dataArray());
   const arrayData = dataArray();
 
-  const [infoToArray, setInfoToArray] = useState(arrayData);
+  // const [infoToArray, setInfoToArray] = useState(arrayData);
+  const infoToArray = arrayData;
 
   //The buttons should be displayed in random order
   const arrayRandomNumbers = (arrayLenght) => {
@@ -47,7 +49,8 @@ const CountryCapitalGame = ({ data }) => {
   const arrayIndex = arrayRandomNumbers(infoToArray.length);
 
   //Array of random nums from 0 to 4
-  const [nums, setNumbs] = useState(arrayIndex);
+  // const [nums, setNumbs] = useState(arrayIndex);
+  const nums = arrayIndex;
 
   //Final array -> unordered list
 
