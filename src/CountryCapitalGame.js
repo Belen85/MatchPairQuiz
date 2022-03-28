@@ -110,9 +110,9 @@ const CountryCapitalGame = ({ data }) => {
         (info.hasOwnProperty(response1) && info[response1] === response2) ||
         (info.hasOwnProperty(response2) && info[response2] === response1)
       ) {
-        const index1 = infoToArrayRandom.indexOf(responsesReceived[0]);
+        const index1 = infoToArrayRandom.indexOf(response1);
         infoToArrayRandom.splice(index1, 1);
-        const index2 = infoToArrayRandom.indexOf(responsesReceived[1]);
+        const index2 = infoToArrayRandom.indexOf(response2);
         infoToArrayRandom.splice(index2, 1);
         //Set response to 0
         setResponsesReceived([]);
