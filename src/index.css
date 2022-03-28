@@ -130,7 +130,7 @@ footer {
   bottom: 0;
   font-size: 1.4rem;
   text-align: center;
-  border-bottom: 0.8rem solid #20c997;
+  border-bottom: 0.4rem solid #20c997;
 }
 
 /*****************************************/
@@ -152,6 +152,7 @@ footer {
 
   .underline {
     width: 25rem;
+    margin-bottom: 0.4rem;
   }
 
   .btn {
