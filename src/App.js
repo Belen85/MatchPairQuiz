@@ -29,6 +29,9 @@ const data = {
 //8. Export your component as the default export
 
 function App() {
+  // Set current year in copyright
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <main>
@@ -44,6 +47,10 @@ function App() {
           <CountryCapitalGame data={data} />
         </section>
       </main>
+      <footer>
+        Copyright © {currentYear} by Belen Rodriguez. Part of "React" online
+        course. Use for learning purposes only.
+      </footer>
     </>
   );
 }

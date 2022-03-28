@@ -122,3 +122,13 @@ body {
 .btn-red {
   background-color: #ff9999;
 }
+
+footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 1.4rem;
+  text-align: center;
+  border-bottom: 0.8rem solid #20c997;
+}

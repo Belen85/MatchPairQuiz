@@ -133,7 +133,7 @@ const CountryCapitalGame = ({ data }) => {
       <>
         <div className="flex">
           <h2 className="congratulations">
-            Congratulations 🎉🎉🎉🎉🎉🎉!!!! !!!!
+            Congratulations 🎉🎉🎉🎉🎉🎉!!!!!!!!
           </h2>
         </div>
       </>
