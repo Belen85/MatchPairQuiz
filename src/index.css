@@ -124,11 +124,33 @@ body {
 }
 
 footer {
+  position: fixed;
   width: 100%;
-  position: absolute;
   left: 0;
   bottom: 0;
   font-size: 1.4rem;
   text-align: center;
   border-bottom: 0.8rem solid #20c997;
+}
+
+/*****************************************/
+/* BELOW 544px (Phones) */
+/*****************************************/
+
+/* 550 px -> 550/16 (which is the browser's default font size) = 44em */
+
+/* This media querie will fire at 544 px (34*16) */
+
+@media (max-width: 34em) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .secondary-heading {
+    font-size: 2.4rem;
+  }
+
+  .underline {
+    width: 25rem;
+  }
 }
